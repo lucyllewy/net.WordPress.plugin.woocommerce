@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "net.WordPress.plugin.woocommerce", "net.WordPress.plugin.woocommerce\net.WordPress.plugin.woocommerce.msbuildproj", "{96BBD530-B41E-4D27-A521-7283B74F3478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96BBD530-B41E-4D27-A521-7283B74F3478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BBD530-B41E-4D27-A521-7283B74F3478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BBD530-B41E-4D27-A521-7283B74F3478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BBD530-B41E-4D27-A521-7283B74F3478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AB1BD9C-65D7-4BF5-AD38-D701F085F5FE}
+	EndGlobalSection
+EndGlobal

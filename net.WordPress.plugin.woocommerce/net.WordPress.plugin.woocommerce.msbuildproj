@@ -1,0 +1,20 @@
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.40">
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+    <Content Include="**" Exclude="obj/**;bin/**;*.msbuildproj" CopyToOutputDirectory="PreserveNewest">
+      <PackagePath>contentFiles/any/netcoreapp2.0/wordpress/</PackagePath>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <Link>wordpress\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wp-content\plugins\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="PeachPied.WordPress" Version="1.0.0-beta3" />
+  </ItemGroup>
+</Project>
